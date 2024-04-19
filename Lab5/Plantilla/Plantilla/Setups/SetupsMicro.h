@@ -58,7 +58,7 @@ void SetupTimer2(uint16_t Prescaler2, uint8_t Desvordamiento2, uint8_t Cristal);
 void SetupADC(uint8_t PinADC);
 void SetupPWM0(uint8_t ModoPWM0, uint8_t Sentido0, uint8_t SaidaPMW0, uint16_t PrescalerPWM0);
 void SetupPWM1(uint8_t ModoPWM1, uint8_t Sentido1, uint8_t SaidaPMW1, uint16_t PrescalerPWM1);
-void SetupPWM2(); 
+void SetupPWM2(uint8_t ModoPWM2, uint8_t Sentido2, uint8_t SaidaPMW2, uint16_t PrescalerPWM2); 
 
 
 
